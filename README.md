@@ -169,10 +169,8 @@ Next, setup Remote Desktop for non-administrative users on Client-1. To do this,
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![Screen Shot 2024-12-28 at 8 16 42 PM](https://github.com/user-attachments/assets/bb201275-1189-4995-b3bb-ced85eda1c24)
+
 For the final portion of this demonstration, we will create a bunch of additional users and attempt to log into client-1 with one of the users. To do this we must:
 
 Login to DC-1 as jane_admin
@@ -183,50 +181,25 @@ Create a new file and paste the contents of this script (https://github.com/josh
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![Screen Shot 2024-12-28 at 8 18 09 PM](https://github.com/user-attachments/assets/d33d0ead-b399-48e9-88cb-3f9a0bc30210)
+
+Run the script and observe the accounts being created
+
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![Screen Shot 2024-12-28 at 8 21 25 PM](https://github.com/user-attachments/assets/72eb7b14-7ade-44a6-a565-c9551e64ffc4)
+
+![Screen Shot 2024-12-28 at 8 22 18 PM](https://github.com/user-attachments/assets/4ee13707-283b-4b38-be3f-d1293236a988)
+
+![Screen Shot 2024-12-28 at 8 22 40 PM](https://github.com/user-attachments/assets/d281bf7b-62e4-4dd3-a7d9-33086566ec2f)
+
+When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES), then attempt to log into Client-1 with one of the accounts (take note of the password in the script).
+
+I hope this tutorial has helped you learn about network security protocols and how to monitor traffic between virtual machines. This process works seamlessly on both PC and Mac, though Mac users will need to install the Remote Desktop app first.
+
+Before we wrap up, remember to CLEAN UP YOUR AZURE ENVIRONMENT to avoid any unwanted charges. Be sure to close your Remote Desktop connection, delete the Resource Group(s) created earlier, and double-check that they’ve been removed.
+
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
